@@ -1,9 +1,9 @@
 import React from 'react'
 import { Router, Route, browserHistory } from 'react-router'
-import Hello from '../components/Hello/Hello'
+import Leaderboard from '../components/Leaderboard/Leaderboard'
 
 export default (
   <Router history={browserHistory}>
-    <Route path='/' component={Hello} />
+    <Route path='/' component={Leaderboard} />
   </Router>
 )
