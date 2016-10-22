@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate",
+  "name": "leaderboard",
   "version": "0.0.1",
-  "description": "✅ React Boilerplate using webpack with hot loader and css modules",
+  "description": "FCC LeaderBoard",
   "main": "index.js",
   "scripts": {
     "production": "webpack -p",
@@ -10,6 +10,7 @@
   "author": "Loic Laudet <dlodz.me@gmail.com> (https://twitter.com/loiclaudet)",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.15.2",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-router": "^2.8.1"
